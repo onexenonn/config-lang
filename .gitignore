@@ -1,0 +1,8 @@
+build/
+*.o
+config
+src/parser.tab.cc
+src/parser.tab.h
+src/lexer.yy.cc
+.vscode/
+.idea/

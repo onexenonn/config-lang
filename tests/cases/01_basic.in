@@ -1,0 +1,6 @@
+table([
+  name = q(My app),
+  version = 1.0,
+  port = 8080,
+  debug = q(true)
+])

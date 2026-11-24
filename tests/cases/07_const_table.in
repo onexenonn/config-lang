@@ -1,0 +1,5 @@
+DEFAULT <- table([ host = q(localhost), port = 5432 ]);
+
+table([
+  db = #{DEFAULT}
+])

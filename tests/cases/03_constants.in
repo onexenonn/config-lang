@@ -1,0 +1,7 @@
+MAX_CONN <- 100;
+HOST <- q(example.com);
+
+table([
+  host = #{HOST},
+  max_connections = #{MAX_CONN}
+])

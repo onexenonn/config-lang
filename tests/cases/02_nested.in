@@ -1,0 +1,11 @@
+table([
+  server = table([
+    host = q(localhost),
+    port = 8080,
+    tls = table([
+      enabled = q(yes),
+      cert = q(/etc/cert.pem)
+    ])
+  ]),
+  timeout = 30
+])
